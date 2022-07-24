@@ -1,10 +1,10 @@
 import Spline from "@splinetool/react-spline";
 import styled from "styled-components";
 
-import Logo from "../../assets/logo.svg";
-import IconTwitter from "../../assets/icon-twitter.svg";
-import IconYouTube from "../../assets/icon-youtube.svg";
-import IconLaptop from "../../assets/icon-laptop.svg";
+import Logo from "./assets/logo.svg";
+import IconTwitter from "./assets/icon-twitter.svg";
+import IconYouTube from "./assets/icon-youtube.svg";
+import IconLaptop from "./assets/icon-laptop.svg";
 
 export default function App() {
   return (
@@ -96,6 +96,8 @@ const Wrapper = styled.div`
     margin: 0;
     top: 0;
     right: 0;
+    width: 1200px;
+    height: 100% !important;
 
     @media (max-width: 1024px) {
       transform: scale(0.8) translateX(200px);
