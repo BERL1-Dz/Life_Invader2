@@ -47,7 +47,7 @@ export default function App() {
         <p>
           Un nouveau chapitre s'ouvre pour nous, avec de nouvelles perspectives,
           et défis, pour accompagner vos entreprises avec nos outils et les
-          propolser dans l'air du numérique. Avec Life Invader 2.0 brisez la
+          propulser dans l'air du numérique. Avec Life Invader 2.0 brisez la
           frontière avec le metaverse.
         </p>
         <button>
