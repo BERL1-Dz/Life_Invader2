@@ -1,7 +1,7 @@
 import Spline from "@splinetool/react-spline";
 import styled from "styled-components";
 
-import Logo from "./assets/logo.svg";
+import Logo from "./assets/logo2.png";
 import IconTwitter from "./assets/icon-twitter.svg";
 import IconYouTube from "./assets/icon-youtube.svg";
 import IconLaptop from "./assets/icon-laptop.svg";
@@ -11,8 +11,9 @@ export default function App() {
     <Wrapper>
       <Spline
         className="spline"
-        scene="https://prod.spline.design/k99HVzraHEeIFQii/scene.splinecode"
+        scene="https://prod.spline.design/JxVcbvzpENsSqcyZ/scene.splinecode"
       />
+
       <Social>
         <div />
         <img src={IconTwitter} alt="Twitter" />
@@ -74,17 +75,18 @@ const Footer = styled.div`
     max-width: 380px;
     pointer-events: auto;
     text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    color: #000;
   }
   a {
     text-decoration: none;
     cursor: pointer;
-    color: #fff;
+    color: #000;
     text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   }
 `;
 const Wrapper = styled.div`
   font-family: "Spline Sans", sans-serif;
-  color: white;
+  color: #d30606;
   font-size: 16px;
   margin: 0 auto;
   position: relative;
@@ -96,7 +98,7 @@ const Wrapper = styled.div`
     margin: 0;
     top: 0;
     right: 0;
-    width: 1200px;
+    width: 1000px;
     height: 100% !important;
 
     @media (max-width: 1024px) {
@@ -139,6 +141,7 @@ const Content = styled.div`
     font-size: 70px;
     margin: 0;
     max-width: 500px;
+    color: #d30606;
     pointer-events: auto;
     text-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 
@@ -156,6 +159,7 @@ const Content = styled.div`
   }
 
   p {
+    color: #000;
     font-weight: normal;
     line-height: 150%;
     max-width: 380px;
@@ -164,12 +168,12 @@ const Content = styled.div`
   }
 
   button {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(153 0 0 / 20%);
     border: 0px;
     font-size: 16px;
     padding: 12px 30px;
     border-radius: 14px;
-    color: white;
+    color: #d30606;
     border: 1px solid rgba(255, 255, 255, 0.1);
     max-width: 280px;
     backdrop-filter: blur(20px);
@@ -180,7 +184,7 @@ const Content = styled.div`
     pointer-events: auto;
     a {
       text-decoration: none;
-      color: #fff;
+      color: #d30606;
       line-height: 150%;
       max-width: 380px;
       pointer-events: auto;
@@ -224,10 +228,11 @@ const Menu = styled.ul`
   li {
     list-style: none;
     margin: 0;
+    color: #d30606;
 
     a {
+      color: #d30606;
       text-decoration: none;
-      color: white;
       padding: 8px 20px;
       border-radius: 14px;
       border: 1px solid rgba(255, 255, 255, 0);
@@ -242,7 +247,7 @@ const Menu = styled.ul`
   button {
     margin: 0;
     width: auto;
-    background: rgba(31, 66, 250, 0.2);
+    background: rgba(250 31 31 / 20%);
     border: 1px solid rgba(255, 255, 255, 0.4);
   }
 
@@ -275,10 +280,10 @@ const Social = styled.div`
     height: 500px;
     background: linear-gradient(
       180deg,
-      #08b6f9 0%,
-      #6c56ef 33.57%,
-      #1306dd 65.86%,
-      #aa0eb2 100%
+      #ff000075 0%,
+      #ffffff 33.57%,
+      #e50000 65.86%,
+      #ffffff 100%
     );
   }
 `;
