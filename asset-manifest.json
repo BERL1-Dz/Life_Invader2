@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Life_Invader2/static/css/main.20a55caa.chunk.css",
+    "main.js": "/Life_Invader2/static/js/main.f5994590.chunk.js",
+    "main.js.map": "/Life_Invader2/static/js/main.f5994590.chunk.js.map",
+    "runtime-main.js": "/Life_Invader2/static/js/runtime-main.a6cc9c27.js",
+    "runtime-main.js.map": "/Life_Invader2/static/js/runtime-main.a6cc9c27.js.map",
+    "static/js/2.c674bc84.chunk.js": "/Life_Invader2/static/js/2.c674bc84.chunk.js",
+    "static/js/2.c674bc84.chunk.js.map": "/Life_Invader2/static/js/2.c674bc84.chunk.js.map",
+    "static/js/3.cf6ed86d.chunk.js": "/Life_Invader2/static/js/3.cf6ed86d.chunk.js",
+    "static/js/3.cf6ed86d.chunk.js.map": "/Life_Invader2/static/js/3.cf6ed86d.chunk.js.map",
+    "index.html": "/Life_Invader2/index.html",
+    "static/css/main.20a55caa.chunk.css.map": "/Life_Invader2/static/css/main.20a55caa.chunk.css.map",
+    "static/js/2.c674bc84.chunk.js.LICENSE.txt": "/Life_Invader2/static/js/2.c674bc84.chunk.js.LICENSE.txt",
+    "static/media/icon-laptop.b773715c.svg": "/Life_Invader2/static/media/icon-laptop.b773715c.svg",
+    "static/media/icon-twitter.4a266899.svg": "/Life_Invader2/static/media/icon-twitter.4a266899.svg",
+    "static/media/icon-youtube.9f2c78aa.svg": "/Life_Invader2/static/media/icon-youtube.9f2c78aa.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6cc9c27.js",
+    "static/js/2.c674bc84.chunk.js",
+    "static/css/main.20a55caa.chunk.css",
+    "static/js/main.f5994590.chunk.js"
+  ]
+}
